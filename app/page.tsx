@@ -48,6 +48,7 @@ export default function Home() {
             {teachers.map((teacher) => (
               <div key={teacher.id} className="mb-4">
                 <Profil
+                  id={teacher.id}
                   firstName={teacher.firstName}
                   lastName={teacher.lastName}
                   description={teacher.description}

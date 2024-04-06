@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import UserData from "@/lib/type";
 
 export const Profil = ({
+  id,
   firstName,
   lastName,
   description,
