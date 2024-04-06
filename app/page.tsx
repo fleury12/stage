@@ -70,6 +70,7 @@ export default function Home() {
                   {studentsByHouse[house].map((student) => (
                     <div key={student.id} className="sm:w-1/2 pr-4 mb-4">
                       <Profil
+                        id={student.id}
                         key={student.id}
                         firstName={student.firstName}
                         lastName={student.lastName}
