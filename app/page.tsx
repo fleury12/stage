@@ -9,7 +9,6 @@ import fichier_json from "@/public/files/profils.json";
 
 export default function Home() {
   const users: UserData[] = fichier_json;
-  console.log(users);
   const compareArrivalDate = (a: UserData, b: UserData) => {
     const dateA = new Date(a.arrivalDate);
     const dateB = new Date(b.arrivalDate);
